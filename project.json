@@ -1,0 +1,55 @@
+{
+  "name": "SalesConsolidationBOT",
+  "description": "This BOT will help us consolidate data in our Sales Report File.",
+  "main": "SalesDataConsolidation.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.10.3-preview]",
+    "UiPath.Mail.Activities": "[1.10.3-preview]",
+    "UiPath.System.Activities": "[21.4.0-preview]",
+    "UiPath.UIAutomation.Activities": "[21.4.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.0.0",
+  "projectVersion": "1.0.6",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "SalesDataConsolidation.xaml",
+      "uniqueId": "4fbdb226-b5a1-4348-b555-5425575be68a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
